@@ -46,7 +46,7 @@ VisualEffect:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1485318163828452342}
   m_Enabled: 1
-  m_Asset: {fileID: 8926484042661614526, guid: 9c5774a33a8b4454988163672016a803, type: 3}
+  m_Asset: {fileID: 0}
   m_InitialEventName: OnPlay
   m_InitialEventNameOverriden: 0
   m_StartSeed: 0
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1485318163828452342}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecef651ebc3461e4eb6f2e63b5651544, type: 3}
+  m_Script: {fileID: 11500000, guid: 614946713929fa748b8f32f2ba51484c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Amplitude: 0
@@ -258,7 +258,7 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: a6be93913fd340f48ab274cedb3797e1, type: 2}
+    - {fileID: 11400000, guid: a82c8d29db2e7da45a6dae6cd3a9fb5f, type: 2}
 --- !u!114 &2520729566520143952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -275,4 +275,4 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: 1e0b43538b0cba043ad01abf5a182524, type: 2}
+  sharedProfile: {fileID: 11400000, guid: cebc6bc6a7d4b9645afd571e8497e7fc, type: 2}
