@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 91300510}
   - component: {fileID: 91300509}
   - component: {fileID: 91300512}
+  - component: {fileID: 91300513}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -260,6 +261,23 @@ MonoBehaviour:
     mipBias: 0
     varianceClampScale: 0.9
     contrastAdaptiveSharpening: 0
+--- !u!114 &91300513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91300508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: e9008117a555d454e8116cf36f23462a, type: 2}
 --- !u!1 &336331957
 GameObject:
   m_ObjectHideFlags: 0
@@ -464,7 +482,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1527564589}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a64986e17ea09554a952d1b4391c03d3, type: 3}
+  m_Script: {fileID: 11500000, guid: a660acf60851cc043b73344183ae2fad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   vfx_1: {fileID: 1485318165376501401}
@@ -499,7 +517,7 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: a82c8d29db2e7da45a6dae6cd3a9fb5f, type: 2}
+    - {fileID: 11400000, guid: 3ccc55a8330efb249ace7aa6eafcf5a9, type: 2}
 --- !u!1 &1485318165376501401
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,7 +533,6 @@ GameObject:
   - component: {fileID: 8720787008446493697}
   - component: {fileID: 8838559671250605118}
   - component: {fileID: 1459603697969121012}
-  - component: {fileID: 2520729564982566207}
   m_Layer: 0
   m_Name: VFXGraph_01
   m_TagString: Untagged
@@ -563,23 +580,6 @@ VFXRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &2520729564982566207
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1485318165376501401}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IsGlobal: 1
-  priority: 0
-  blendDistance: 0
-  weight: 1
-  sharedProfile: {fileID: 11400000, guid: cebc6bc6a7d4b9645afd571e8497e7fc, type: 2}
 --- !u!2083052967 &2586692617939305541
 VisualEffect:
   m_ObjectHideFlags: 0
@@ -588,7 +588,7 @@ VisualEffect:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1485318165376501401}
   m_Enabled: 1
-  m_Asset: {fileID: 8926484042661614526, guid: f59af8a975bfb604cbdcbcaf08145f26, type: 3}
+  m_Asset: {fileID: 8926484042661614526, guid: 7507c676784c2624da185df721a2b0b2, type: 3}
   m_InitialEventName: OnPlay
   m_InitialEventNameOverriden: 0
   m_StartSeed: 0
@@ -643,7 +643,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7be95b2a5d5c290468b4c52eaa80ed39, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 5ba24152ddcdcaf4e990adabbbe1ea0d, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -738,7 +738,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1485318165376501401}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 614946713929fa748b8f32f2ba51484c, type: 3}
+  m_Script: {fileID: 11500000, guid: 0d0ab01636cfc9343b89980f6312f575, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Amplitude: 0
